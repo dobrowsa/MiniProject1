@@ -22,9 +22,10 @@ class Main {
     Scanner s2 = new Scanner(System.in);
     int numTries = 0;
     boolean win = false;
-
+  //Start Sequence
   System.out.println("Please guess a number between 0 and " + userInput);
 
+  //Loop for sequence of results
   while(win == false) {
     int userGuess = s2.nextInt();
     numTries++;

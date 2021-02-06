@@ -19,7 +19,7 @@ class Main {
   }
 
   static void playGame(int userInput, int randomGeneratedNum) {
-    Scanner s2 = new Scanner(System.in);
+    Scanner s = new Scanner(System.in);
     int numTries = 0;
     boolean win = false;
   //Start Sequence
@@ -27,7 +27,7 @@ class Main {
 
   //Loop for sequence of results
   while(win == false) {
-    int userGuess = s2.nextInt();
+    int userGuess = s.nextInt();
     numTries++;
 
     if (userGuess < 0 && userGuess > userInput) {

@@ -30,7 +30,7 @@ class Main {
     int userGuess = s.nextInt();
     numTries++;
 
-     if (userGuess == randomGeneratedNum) {
+    if (userGuess == randomGeneratedNum) {
       win = true;
       System.out.println("Great, you win! It took you " + numTries + " tries");
     }

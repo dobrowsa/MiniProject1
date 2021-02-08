@@ -30,10 +30,7 @@ class Main {
     int userGuess = s.nextInt();
     numTries++;
 
-    if (userGuess < 0 && userGuess > userInput) {
-      System.out.println("Please enter a number in the specified range");
-    }
-    else if (userGuess == randomGeneratedNum) {
+     if (userGuess == randomGeneratedNum) {
       win = true;
       System.out.println("Great, you win! It took you " + numTries + " tries");
     }

@@ -40,8 +40,6 @@ class Main {
     else if (userGuess < randomGeneratedNum) {
       System.out.println("Guess Higher!");
     }
-    else
-      System.out.println("Please enter a valid number");
   }
   }
 }

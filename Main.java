@@ -17,6 +17,7 @@ class Main {
   System.out.println("A random number has been generated");
   playGame(userNum, randomNum);
   }
+  
   //Creating Method PlayGame that is called above
   //Implement Game Logic inside Method
   static void playGame(int userInput, int randomGeneratedNum) {

@@ -1,3 +1,7 @@
+/* Mini Project 1
+Sam Dobrowolski, Christopher Sonnhalter, Christopher Fenter, Jon Ashbrook
+2/15/21*/
+
 //Bringing in imports
 import java.util.Scanner;
 import java.util.Random;
@@ -11,14 +15,13 @@ class Main {
   
   // Setting up Variables
   int userNum = s.nextInt();
-  //**Still need to create logic for randomNum that is between 0 and Usernum -1 input**
   int randomNum = r.nextInt(userNum);
 
   System.out.println("A random number has been generated");
   playGame(userNum, randomNum);
   }
   
-  //Creating Method PlayGame that is called above
+  //Creating Method PlayGame that is called above (line 21)
   //Implement Game Logic inside Method
   static void playGame(int userInput, int randomGeneratedNum) {
     Scanner s = new Scanner(System.in);
